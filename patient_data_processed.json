@@ -1,0 +1,2143 @@
+{
+    "response_code": 200,
+    "success": true,
+    "status_code": 200,
+    "total_records": null,
+    "page_number": null,
+    "total_pages": null,
+    "message": "Data Found.",
+    "error_message": null,
+    "token": null,
+    "result": {
+        "_id": "691727f43dc19d911e58e8ee",
+        "resourceType": "Patient",
+        "managingOrganization": {
+            "reference": "Organization/2050"
+        },
+        "name": [
+            {
+                "use": "official",
+                "family": "SYED",
+                "given": [
+                    "ZEHRA"
+                ],
+                "_id": "691727f43dc19d911e58e8ef"
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+17792014669",
+                "use": "home",
+                "_id": "691727f43dc19d911e58e8f0"
+            },
+            {
+                "system": "email",
+                "value": "sabbas@kidneycares.com",
+                "use": "mobile",
+                "_id": "691727f43dc19d911e58e8f1"
+            }
+        ],
+        "gender": "male",
+        "birthDate": "1952-07-24T00:00:00.000Z",
+        "address": [
+            {
+                "line": [
+                    "875 N EDGEMERE DR"
+                ],
+                "city": "BOURBONNAIS",
+                "state": "IL",
+                "postalCode": "60914-1343",
+                "_id": "691727f43dc19d911e58e8f2"
+            }
+        ],
+        "identifier": [
+            {
+                "value": "200372",
+                "_id": "691727f43dc19d911e58e8f3"
+            }
+        ],
+        "extension": [
+            {
+                "url": "eligible-programs",
+                "value": [
+                    "ccm",
+                    "rpm",
+                    "cco"
+                ],
+                "_id": "691727f43dc19d911e58e8f4"
+            },
+            {
+                "url": "new-gender",
+                "value": [
+                    "Man"
+                ],
+                "_id": "691727f43dc19d911e58e8f5"
+            },
+            {
+                "url": "department",
+                "value": [
+                    "KCC Joliet"
+                ],
+                "_id": "691727f43dc19d911e58e8f6"
+            },
+            {
+                "url": "flags",
+                "value": [
+                    "Combined care plan",
+                    "Onsite Enrolment"
+                ],
+                "_id": "691727f43dc19d911e58e8f7"
+            }
+        ],
+        "patient_id_throughCare": "3038659",
+        "action_type": 1,
+        "createdAt": "2025-11-14T13:00:36.999Z",
+        "updatedAt": "2025-11-14T13:00:36.999Z",
+        "__v": 0,
+        "goals": [
+            {
+                "_id": "691a9dc83dc19d911e58f1bf",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959538",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Lower my blood pressure to my goal",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1c0"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894292",
+                        "text": "Hypertension (High Blood Pressure / HBP / HTN)",
+                        "_id": "691a9dc83dc19d911e58f1c1"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1c2",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959542",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Take medications as prescribed",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1c3"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894292",
+                        "text": "Hypertension (High Blood Pressure / HBP / HTN)",
+                        "_id": "691a9dc83dc19d911e58f1c4"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1c5",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959541",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Exercise or be more physically active",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1c6"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894292",
+                        "text": "Hypertension (High Blood Pressure / HBP / HTN)",
+                        "_id": "691a9dc83dc19d911e58f1c7"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1c8",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959539",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Follow my recommended diet",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1c9"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894292",
+                        "text": "Hypertension (High Blood Pressure / HBP / HTN)",
+                        "_id": "691a9dc83dc19d911e58f1ca"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1cb",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959540",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Follow my recommended diet",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1cc"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894293",
+                        "text": "Chronic Kidney Disease (CKD)",
+                        "_id": "691a9dc83dc19d911e58f1cd"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1ce",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959543",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Lower my hemoglobin A1C to goal set by provider",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1cf"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894293",
+                        "text": "Chronic Kidney Disease (CKD)",
+                        "_id": "691a9dc83dc19d911e58f1d0"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1d1",
+                "resourceType": "Goal",
+                "id": "patient_goal-8959544",
+                "category": "uncategorized",
+                "subject": {
+                    "reference": "Patient/3038659"
+                },
+                "achievementStatus": "unknown",
+                "description": "Follow fluid restrictions set by my provider",
+                "identifier": [
+                    {
+                        "system": "program",
+                        "value": "CCM",
+                        "_id": "691a9dc83dc19d911e58f1d2"
+                    },
+                    {
+                        "system": "problem",
+                        "value": "Problem/4894293",
+                        "text": "Chronic Kidney Disease (CKD)",
+                        "_id": "691a9dc83dc19d911e58f1d3"
+                    }
+                ],
+                "category_id": "patient_goal",
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:00:08.822Z"
+                },
+                "__v": 0
+            }
+        ],
+        "lab_reports": [],
+        "allergies": [],
+        "carePlans": [
+            {
+                "_id": "691a9dc83dc19d911e58f1b4",
+                "resourceType": "CarePlan",
+                "id": "ccm-730347",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "program",
+                                "code": "ccm",
+                                "display": "Ccm",
+                                "_id": "691a9dc83dc19d911e58f1b6"
+                            }
+                        ],
+                        "_id": "691a9dc83dc19d911e58f1b5"
+                    }
+                ],
+                "note": [
+                    {
+                        "id": 32379661,
+                        "author": {
+                            "reference": "Practitioner/34470"
+                        },
+                        "time": "2025-11-13T13:42:00.000-05:00",
+                        "text": ".",
+                        "_id": "691a9dc83dc19d911e58f1b7"
+                    }
+                ],
+                "supportingInfo": [
+                    {
+                        "system": "additional-note",
+                        "value": "No value provided",
+                        "_id": "691a9dc83dc19d911e58f1b8"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-02T13:10:04.621-05:00"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "care_plan_report": null,
+                "report_link": null,
+                "last_vist_notes": "Patient Visit Summary\n1. Date of Visit\n\nNovember 13, 2025\n\n2. Consulting Doctor\n\nDr. Stephen Kemnele\n\n3. General Diagnosis / Past Relevant History (One-Liner)\n\nPatient with long-standing Hypertension and Chronic Kidney Disease (Stage 3), generally stable on current treatment but requiring ongoing monitoring.\n\n4. Chief Complaint\n\nPatient reports mild morning headaches and occasional ankle swelling over the past week.\n\n5. Objective Findings\n5.1 Vitals\n\n(Most readings entered by clinician)\n\nBP: 137/77 mmHg\n\nHR: 73 bpm\n\nRR: 16 breaths/min\n\nTemp: 98.1°F (36.7°C)\n\nWeight: 176 lbs (79.8 kg)\n\nBMI: 27.4 kg/m²\n\n5.2 Physical Exam Findings\n\nAppears well, no acute distress\n\nLungs clear, no wheezing or crackles\n\nHeart regular rate and rhythm\n\nMild bilateral ankle edema (+1)\n\nNo jugular venous distention\n\nAbdomen soft, non-tender\n\nNo focal neurological deficits\n\n5.3 Labs or Imaging (New or Trending Data)\n\n\nCreatinine: 1.6 mg/dL (slightly increased from 1.5)\n\neGFR: 42 mL/min (stable)\n\nHbA1c: 7.4% (mildly elevated; prior was 7.2%)\n\nPotassium: 4.9 mEq/L (normal)\n\nHemoglobin: 12.4 g/dL (mild anemia; stable)\n\nUrine protein/creatinine ratio: 0.6 (elevated but unchanged)\n\n6. Plan of Care\n6a. Medications\n\nNew Prescriptions:\n\nAmlodipine 5 mg PO daily — for improved BP control\n\nFerrous sulfate 325 mg PO daily — for CKD-related anemia\n\nDosage Changes:\n\nLisinopril increased from 10 mg to 20 mg daily — for BP and proteinuria management\n\nDiscontinued Medications:\n\nHydrochlorothiazide 12.5 mg — discontinued due to CKD progression and ankle swelling\n\n6b. Lifestyle Guidance\n\nLimit sodium to <2 grams/day\n\nContinue daily walking 20–30 minutes as tolerated\n\nLimit processed foods and follow kidney-friendly diet (moderate protein, avoid high-phosphorus sodas, limit bananas/oranges)\n\nMaintain fluid intake as directed by provider (no excess fluids)\n\nElevate legs when sitting to reduce ankle swelling\n\nContinue home BP monitoring and log readings twice daily\n\nAvoid NSAIDs (ibuprofen, naproxen) due to CKD\n\n6c. Labs / Tests Ordered\n\n\nBMP (Basic Metabolic Panel): to monitor kidney function and electrolytes\n\nCBC: to evaluate anemia and fatigue\n\nUrine Protein/Creatinine Ratio: to assess CKD progression\n\nHbA1c: to monitor glucose control trends\n\nRenal Ultrasound: to evaluate kidney structure and baseline for CKD management\n\n6d. Referrals\n\nNephrology referral — CKD stage 3 with worsening creatinine\n\nDietitian referral — guidance for low-sodium and renal diet\n\n6e. Follow-Up\n\nFollow-up in 4 weeks for BP review and lab results.\n\n7. Patient Instructions (Plain Language)\n\nTake all medications every day exactly as prescribed.\n\nCheck your blood pressure twice daily and record your numbers.\n\nReduce salt in your diet and avoid packaged/processed foods.\n\nDrink only the amount of fluids recommended by your provider.\n\nWalk for at least 20–30 minutes each day if you can.\n\nElevate your feet when resting to help with swelling.\n\nAvoid pain medications like ibuprofen or naproxen unless cleared by your doctor.\n\nCall your doctor right away if you experience:\n\nChest pain\n\nSevere headache or very high BP (>180 systolic)\n\nTrouble breathing\n\nSudden swelling of legs or face\n\nDizziness or fainting\n\nGo to the ER if symptoms are severe or sudden.\n\n8. Next Visit Date\n\nJanuary 10, 2026 at 10:00 AM",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc83dc19d911e58f1b9",
+                "resourceType": "CarePlan",
+                "id": "rpm-132994",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "program",
+                                "code": "rpm",
+                                "display": "Rpm",
+                                "_id": "691a9dc83dc19d911e58f1bb"
+                            }
+                        ],
+                        "_id": "691a9dc83dc19d911e58f1ba"
+                    }
+                ],
+                "note": [],
+                "supportingInfo": [
+                    {
+                        "system": "additional-note",
+                        "value": "No value provided",
+                        "_id": "691a9dc83dc19d911e58f1bc"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-02T13:11:13.503-05:00"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "care_plan_report": null,
+                "report_link": null,
+                "last_vist_notes": null,
+                "__v": 0
+            }
+        ],
+        "conditions": [
+            {
+                "_id": "691a9dc43dc19d911e58f12e",
+                "resourceType": "Condition",
+                "condition_id_throughCare": "7556957",
+                "category": [
+                    {
+                        "_id": "691a9dc43dc19d911e58f12f"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "I10",
+                            "display": "Essential (primary) hypertension"
+                        }
+                    ],
+                    "text": "Hypertension (High Blood Pressure / HBP / HTN)"
+                },
+                "onsetDateTime": "2025-10-28T00:00:00.000Z",
+                "reference_throughCare": "Patient/3038659",
+                "meta": {
+                    "lastUpdated": "2025-10-28T14:49:58.654Z"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0,
+                "createdAt": "2025-11-17T04:00:04.286Z",
+                "updatedAt": "2025-11-17T04:00:04.286Z"
+            },
+            {
+                "_id": "691a9dc43dc19d911e58f130",
+                "resourceType": "Condition",
+                "condition_id_throughCare": "7556958",
+                "category": [
+                    {
+                        "_id": "691a9dc43dc19d911e58f131"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "N18.1",
+                            "display": "Chronic kidney disease, stage 1"
+                        }
+                    ],
+                    "text": "Chronic Kidney Disease (CKD)"
+                },
+                "onsetDateTime": "2025-10-28T00:00:00.000Z",
+                "reference_throughCare": "Patient/3038659",
+                "meta": {
+                    "lastUpdated": "2025-10-28T14:49:58.753Z"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0,
+                "createdAt": "2025-11-17T04:00:04.286Z",
+                "updatedAt": "2025-11-17T04:00:04.286Z"
+            }
+        ],
+        "medications": [],
+        "careTeam": [
+            {
+                "_id": "691727fb3dc19d911e58e9a3",
+                "resourceType": "CareTeam",
+                "id": "3038659-primary",
+                "name": "Primary Care Team",
+                "participants": [
+                    {
+                        "role": {
+                            "text": "care_manager"
+                        },
+                        "member": {
+                            "reference": "Practitioner/34470",
+                            "display": "Fanny Lechuga"
+                        },
+                        "_id": "691727fb3dc19d911e58e9a4"
+                    },
+                    {
+                        "role": {
+                            "text": "physician"
+                        },
+                        "member": {
+                            "reference": "Practitioner/34460",
+                            "display": "Stephen Kemnele"
+                        },
+                        "_id": "691727fb3dc19d911e58e9a5"
+                    }
+                ],
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "meta": {
+                    "lastUpdated": "2025-10-28T10:48:18.042-04:00"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691727fb3dc19d911e58e9a6",
+                "resourceType": "CareTeam",
+                "id": "3038659-ccm",
+                "name": "Ccm Care Team",
+                "participants": [
+                    {
+                        "role": {
+                            "text": "care_manager"
+                        },
+                        "member": {
+                            "reference": "Practitioner/43968",
+                            "display": "Loida Morales"
+                        },
+                        "_id": "691727fb3dc19d911e58e9a7"
+                    },
+                    {
+                        "role": {
+                            "text": "physician"
+                        },
+                        "member": {
+                            "reference": "Practitioner/34460",
+                            "display": "Stephen Kemnele"
+                        },
+                        "_id": "691727fb3dc19d911e58e9a8"
+                    }
+                ],
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "meta": {
+                    "lastUpdated": "2025-11-02T13:10:04.862-05:00"
+                },
+                "__v": 0
+            },
+            {
+                "_id": "691727fb3dc19d911e58e9a9",
+                "resourceType": "CareTeam",
+                "id": "3038659-rpm",
+                "name": "Rpm Care Team",
+                "participants": [
+                    {
+                        "role": {
+                            "text": "care_manager"
+                        },
+                        "member": {
+                            "reference": "Practitioner/43968",
+                            "display": "Loida Morales"
+                        },
+                        "_id": "691727fb3dc19d911e58e9aa"
+                    },
+                    {
+                        "role": {
+                            "text": "physician"
+                        },
+                        "member": {
+                            "reference": "Practitioner/34460",
+                            "display": "Stephen Kemnele"
+                        },
+                        "_id": "691727fb3dc19d911e58e9ab"
+                    }
+                ],
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "meta": {
+                    "lastUpdated": "2025-11-02T13:11:13.685-05:00"
+                },
+                "__v": 0
+            }
+        ],
+        "appointment": [
+            {
+                "_id": "691a9dc43dc19d911e58f134",
+                "resourceType": "Appointment",
+                "appointment_id_throughCare": 11677057,
+                "status": "fulfilled",
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "ThoroughCare Call Purposes",
+                            "code": null,
+                            "_id": "691a9dc43dc19d911e58f135"
+                        }
+                    ]
+                },
+                "start": "2025-11-07T19:33:00.000Z",
+                "created": "2025-11-07T20:04:04.366Z",
+                "description": "Call Successful",
+                "participant": [
+                    {
+                        "_id": "691a9dc43dc19d911e58f136",
+                        "coding": []
+                    }
+                ],
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc43dc19d911e58f137",
+                "resourceType": "Appointment",
+                "appointment_id_throughCare": 11677064,
+                "status": "pending",
+                "serviceType": {
+                    "coding": [
+                        {
+                            "system": "ThoroughCare Call Purposes",
+                            "code": null,
+                            "_id": "691a9dc43dc19d911e58f138"
+                        }
+                    ]
+                },
+                "start": "2025-12-05T20:04:00.000Z",
+                "created": "2025-11-07T20:04:27.027Z",
+                "participant": [
+                    {
+                        "_id": "691a9dc43dc19d911e58f139",
+                        "coding": []
+                    }
+                ],
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "action_type": 1,
+                "__v": 0
+            }
+        ],
+        "insurance": [],
+        "risk": [],
+        "observations": [
+            {
+                "_id": "691727f83dc19d911e58e909",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNTozMDoyMlp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e90b"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e90a"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e90c"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 77
+                },
+                "effectiveDateTime": "2025-11-13T15:30:22Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e90f",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNTozMDoyMlp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e911"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e910"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e912"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 137
+                },
+                "effectiveDateTime": "2025-11-13T15:30:22Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e915",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNTozMDoyMlp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e917"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e916"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f83dc19d911e58e918"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 73
+                },
+                "effectiveDateTime": "2025-11-13T15:30:22Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e91b",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyOToxMFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e91d"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e91c"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e91e"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 136
+                },
+                "effectiveDateTime": "2025-11-13T15:29:10Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e921",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyOToxMFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e923"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e922"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e924"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 76
+                },
+                "effectiveDateTime": "2025-11-13T15:29:10Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e927",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyOToxMFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e929"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e928"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f83dc19d911e58e92a"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 71
+                },
+                "effectiveDateTime": "2025-11-13T15:29:10Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e92d",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjo1OVp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e92f"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e92e"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e930"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 135
+                },
+                "effectiveDateTime": "2025-11-13T15:26:59Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e933",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjo1OVp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e935"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e934"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e936"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 75
+                },
+                "effectiveDateTime": "2025-11-13T15:26:59Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e939",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjo1OVp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e93b"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e93a"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f83dc19d911e58e93c"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 73
+                },
+                "effectiveDateTime": "2025-11-13T15:26:59Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e93f",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjoxMVp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e941"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e940"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f83dc19d911e58e942"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 71
+                },
+                "effectiveDateTime": "2025-11-13T15:26:11Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f83dc19d911e58e945",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjoxMVp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f83dc19d911e58e947"
+                            }
+                        ],
+                        "_id": "691727f83dc19d911e58e946"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f83dc19d911e58e948"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 75
+                },
+                "effectiveDateTime": "2025-11-13T15:26:11Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e94b",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNjoxMVp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e94d"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e94c"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e94e"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 133
+                },
+                "effectiveDateTime": "2025-11-13T15:26:11Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e951",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNToxOFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e953"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e952"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e954"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 134
+                },
+                "effectiveDateTime": "2025-11-13T15:25:18Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e957",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNToxOFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e959"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e958"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f93dc19d911e58e95a"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 73
+                },
+                "effectiveDateTime": "2025-11-13T15:25:18Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e95d",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xM1QxNToyNToxOFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e95f"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e95e"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e960"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 76
+                },
+                "effectiveDateTime": "2025-11-13T15:25:18Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e963",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0wOVQxNjoxMDo0MFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e965"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e964"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e966"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 156
+                },
+                "effectiveDateTime": "2025-11-09T16:10:40Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e969",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0wOVQxNjoxMDo0MFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e96b"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e96a"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e96c"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 82
+                },
+                "effectiveDateTime": "2025-11-09T16:10:40Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e96f",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0wOVQxNjoxMDo0MFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e971"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e970"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f93dc19d911e58e972"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 78
+                },
+                "effectiveDateTime": "2025-11-09T16:10:40Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e975",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0wOVQxNTozNzozNFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e977"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e976"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691727f93dc19d911e58e978"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 77
+                },
+                "effectiveDateTime": "2025-11-09T15:37:34Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691727f93dc19d911e58e97b",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0wOVQxNTozNzozNFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691727f93dc19d911e58e97d"
+                            }
+                        ],
+                        "_id": "691727f93dc19d911e58e97c"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691727f93dc19d911e58e97e"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 76
+                },
+                "effectiveDateTime": "2025-11-09T15:37:34Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f13c",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0ODo1OFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f13e"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f13d"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc63dc19d911e58f13f"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 92
+                },
+                "effectiveDateTime": "2025-11-17T02:48:58Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f142",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0ODo1OFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f144"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f143"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc63dc19d911e58f145"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 178
+                },
+                "effectiveDateTime": "2025-11-17T02:48:58Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f148",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0ODo1OFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f14a"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f149"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc63dc19d911e58f14b"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 63
+                },
+                "effectiveDateTime": "2025-11-17T02:48:58Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f14e",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0NDoyNlp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f150"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f14f"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc63dc19d911e58f151"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 58
+                },
+                "effectiveDateTime": "2025-11-17T02:44:26Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f154",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0NDoyNlp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f156"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f155"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc63dc19d911e58f157"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 89
+                },
+                "effectiveDateTime": "2025-11-17T02:44:26Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc63dc19d911e58f15a",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0NDoyNlp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc63dc19d911e58f15c"
+                            }
+                        ],
+                        "_id": "691a9dc63dc19d911e58f15b"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc63dc19d911e58f15d"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 177
+                },
+                "effectiveDateTime": "2025-11-17T02:44:26Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f160",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MzoxNFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f162"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f161"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f163"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 82
+                },
+                "effectiveDateTime": "2025-11-17T02:43:14Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f166",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MzoxNFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f168"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f167"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f169"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 180
+                },
+                "effectiveDateTime": "2025-11-17T02:43:14Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f16c",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MzoxNFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f16e"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f16d"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc73dc19d911e58f16f"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 62
+                },
+                "effectiveDateTime": "2025-11-17T02:43:14Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f172",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MTo1MVp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f174"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f173"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f175"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 178
+                },
+                "effectiveDateTime": "2025-11-17T02:41:51Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f178",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MTo1MVp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f17a"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f179"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f17b"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 84
+                },
+                "effectiveDateTime": "2025-11-17T02:41:51Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f17e",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MTo1MVp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f180"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f17f"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc73dc19d911e58f181"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 63
+                },
+                "effectiveDateTime": "2025-11-17T02:41:51Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f184",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MDo0OFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f186"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f185"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f187"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 79
+                },
+                "effectiveDateTime": "2025-11-17T02:40:48Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f18a",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MDo0OFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f18c"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f18b"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f18d"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 169
+                },
+                "effectiveDateTime": "2025-11-17T02:40:48Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f190",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjo0MDo0OFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f192"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f191"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc73dc19d911e58f193"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 62
+                },
+                "effectiveDateTime": "2025-11-17T02:40:48Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f196",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjozODo1NFp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f198"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f197"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc73dc19d911e58f199"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 58
+                },
+                "effectiveDateTime": "2025-11-17T02:38:54Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f19c",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjozODo1NFp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f19e"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f19d"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f19f"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 73
+                },
+                "effectiveDateTime": "2025-11-17T02:38:54Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f1a2",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjozODo1NFp8c3lzdG9saWM-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f1a4"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f1a3"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "systolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f1a5"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 170
+                },
+                "effectiveDateTime": "2025-11-17T02:38:54Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f1a8",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjozNzoxOVp8ZGlhc3RvbGlj-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f1aa"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f1a9"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "diastolic",
+                            "display": "mmHg",
+                            "_id": "691a9dc73dc19d911e58f1ab"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 66
+                },
+                "effectiveDateTime": "2025-11-17T02:37:19Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            },
+            {
+                "_id": "691a9dc73dc19d911e58f1ae",
+                "resourceType": "Observation",
+                "id": "MzAzODY1OXxTbWFydCBNZXRlciAtIGlCbG9vZFByZXNzdXJlIEJQIE1vbml0b3J8MjAyNS0xMS0xN1QwMjozNzoxOVp8cHVsc2U-vital-signs",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "_id": "691a9dc73dc19d911e58f1b0"
+                            }
+                        ],
+                        "_id": "691a9dc73dc19d911e58f1af"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://api.secure.thoroughcare.com/v1/code_systems/measurement_types",
+                            "code": "pulse",
+                            "display": "bpm",
+                            "_id": "691a9dc73dc19d911e58f1b1"
+                        }
+                    ]
+                },
+                "valueQuantity": {
+                    "value": 68
+                },
+                "effectiveDateTime": "2025-11-17T02:37:19Z",
+                "interpretation": [],
+                "subject": {
+                    "reference": "691727f43dc19d911e58e8ee"
+                },
+                "patient_id": "691727f43dc19d911e58e8ee",
+                "__v": 0
+            }
+        ],
+        "carePlan": ""
+    },
+    "misc_data": null
+}
