@@ -68,31 +68,7 @@ def id_generator(file_path, vs_id=None, conversation_id=None):
 
 def file_chat(question, conversation_id, vs_id):
     """Send message to AI & return its response."""
-    try:
-        response = client.responses.create(
-            model=MODEL,
-            conversation=conversation_id,
-            input=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": question}
-            ],
-            tools=[
-                {
-                    "type": "file_search",
-                    "vector_store_ids": [vs_id]
-                }
-            ],
-            include=["file_search_call.results"],
-            store=True,
-        )
-        return response.output_text
-    except Exception as e:
-        return f"❌ Error: {str(e)}"
-
-
-# ------------------------- PROMPT -------------------------
-
-prompt = """
+    prompt = """
 User Data is already provided in json file. Use that file as only source of truth. if you dont find any information in the file then ask the user to provide that information.
 User must always give their last name and date of birth in their first message. If they do not provide it, then and only then you will ask for confirmation. If they do provide it, you will confirm from the message itself without asking again.
 1. You are Lyra, a care assistant nurse working in {Provider Name} office at 
@@ -235,6 +211,31 @@ information related to one topic through multiple texts then you can
 send multiple texts in a row without waiting for the patient reply for 
 example sending patient the list of medication. 
 """
+    try:
+        response = client.responses.create(
+            model=MODEL,
+            conversation=conversation_id,
+            input=[
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": question}
+            ],
+            tools=[
+                {
+                    "type": "file_search",
+                    "vector_store_ids": [vs_id]
+                }
+            ],
+            include=["file_search_call.results"],
+            store=True,
+        )
+        return response.output_text
+    except Exception as e:
+        return f"❌ Error: {str(e)}"
+
+
+# ------------------------- PROMPT -------------------------
+
+
 
 # ------------------------- STREAMLIT APP -------------------------
 
