@@ -5,7 +5,7 @@ import pandas as pd
 from openai import OpenAI
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-MODEL = "gpt-4.1"
+MODEL = "gpt-5-nano"
 
 st.set_page_config(page_title="Lyra – Care Assistant", layout="wide")
 
